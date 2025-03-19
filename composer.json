@@ -1,5 +1,6 @@
 {
     "name": "hexlet/code",
+    "description": "Hexlet json",
     "autoload": {
         "psr-4": {
             "Hexlet\\Code\\": "src/"
@@ -11,5 +12,9 @@
             "email": "andrei.h@seranking.com"
         }
     ],
+    "bin": [
+        "bin/brain-games"
+    ],
+    "license": "proprietary",
     "require": {}
 }

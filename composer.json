@@ -3,11 +3,12 @@
     "description": "hexlet brain-games",
     "autoload": {
         "psr-4": {
-            "Hexlet\\Code\\": "src/"
+           "BrainGames\\": "src/"
         },
         "files": [
             "src/Cli.php",
-            "bin/brain-games"
+            "bin/brain-games",
+            "bin/brain-even"
         ]
     },
     "authors": [

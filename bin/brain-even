@@ -1,0 +1,42 @@
+#!/usr/bin/env php
+<?php
+
+use function cli\line;
+use function cli\prompt;
+
+$autoloadPath1 = __DIR__ . '/../../../autoload.php';
+$autoloadPath2 = __DIR__ . '/../vendor/autoload.php';
+
+if (file_exists($autoloadPath1)) {
+    require_once $autoloadPath1;
+} else {
+    require_once $autoloadPath2;
+}
+
+function evenNumber()
+{
+    $attempts = 0;
+    $maxAttempts = 3;
+
+    line('Answer "yes" if the number is even, otherwise answer "no".');
+    while ($attempts < $maxAttempts) {
+        $number = rand(0, 15);
+        line("Question: %s", $number);
+        $answer = prompt("Your answer");
+        $is_even_number = $number % 2 === 0;
+        $correct_answer = $is_even_number ? 'yes' : 'no';
+
+        if ($answer === $correct_answer) {
+            line("Correct!");
+            $attempts++;
+            if ($attempts === $maxAttempts) {
+                line("Congratulations!");
+            }
+        } else {
+            line("'%s' is wrong answer ;(. Correct answer was '%s'.\nLet's try again!", $answer, $correct_answer);
+            return;
+        }
+    }
+}
+
+evenNumber();

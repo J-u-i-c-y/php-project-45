@@ -11,4 +11,4 @@ validate:
 	composer validate
 
 lint:
-	composer exec --verbose phpcs -- --standard=PSR12 src bin brain-games
+	composer exec --verbose phpcs -- --standard=PSR12 src bin

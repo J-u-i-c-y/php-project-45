@@ -4,3 +4,4 @@
 
 [Even Game console recording](https://asciinema.org/a/Tg9xvANL2yIMYRt5MTr0PFrFj)
 [Calc Game console recording](https://asciinema.org/a/oHEFISIe5x4lDba9IV1wWser7)
+[Gcd Game console recording](https://asciinema.org/a/YD33f87dkI770PZIhPLDAPUlv)

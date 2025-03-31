@@ -6,7 +6,8 @@ use function cli\line;
 use function cli\prompt;
 use function BrainGames\Engine\game;
 
-function generateProgression($start, $step, $length) {
+function generateProgression($start, $step, $length)
+{
     $progression = [];
     for ($i = 0; $i < $length; $i++) {
         $currentElement = $start + $i * $step;
@@ -29,7 +30,7 @@ function progression()
         $expression = implode(' ', $progression);
         line("Question: %s", $expression);
         $answer = (int)prompt("Your answer");
-    
+
         return [$answer, $correct_answer];
     };
 

@@ -18,7 +18,7 @@ function gcdGame()
         $y = rand(1, 50);
 
         $correct_answer = gcd($x, $y);
-        $expression = "{$x} and {$y}";
+        $expression = "{$x} {$y}";
 
         line("Question: %s", $expression);
         $answer = (int)prompt("Your answer");

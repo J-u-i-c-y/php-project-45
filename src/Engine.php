@@ -21,7 +21,8 @@ function game($gameDescription, $answers)
         if ($answer === $correctAnswer) {
             line("Correct!");
         } else {
-            line("'%s' is wrong answer ;(. Correct answer was '%s'.\nLet's try again, %s!", $answer, $correctAnswer, $name);
+            line("'%s' is wrong answer ;(. Correct answer was '%s'.", $answer, $correctAnswer);
+            line("Let's try again, %s!", $name);
             return;
         }
     }

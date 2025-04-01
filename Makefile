@@ -23,7 +23,7 @@ validate:
 	composer validate
 
 test-coverage:
-	phpunit --coverage-clover=coverage.xml
+	vendor/bin/phpunit --coverage-clover=coverage.xml
 
 lint:
 	composer exec --verbose phpcs -- --standard=PSR12 src bin

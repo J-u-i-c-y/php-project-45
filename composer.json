@@ -34,6 +34,7 @@
         "wp-cli/php-cli-tools": "^0.12.4"
     },
     "require-dev": {
-        "squizlabs/php_codesniffer": "^3.12"
+        "squizlabs/php_codesniffer": "^3.12",
+        "phpunit/phpunit": "^12.0"
     }
 }

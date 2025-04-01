@@ -6,7 +6,7 @@ use function cli\line;
 use function cli\prompt;
 use function BrainGames\Engine\game;
 
-function generateProgression($start, $step, $length)
+function generateProgression(int $start, int $step, int $length): array
 {
     $progression = [];
     for ($i = 0; $i < $length; $i++) {

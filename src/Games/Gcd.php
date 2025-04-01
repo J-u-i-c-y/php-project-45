@@ -6,7 +6,7 @@ use function cli\line;
 use function cli\prompt;
 use function BrainGames\Engine\game;
 
-function gcd($a, $b)
+function gcd(int $a, int $b): int
 {
     return $b === 0 ? $a : gcd($b, $a % $b);
 }

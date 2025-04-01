@@ -25,13 +25,13 @@ function progression()
 
         $progression = generateProgression($start, $step, $length);
         $hiddenIndex = rand(0, $length - 1);
-        $correct_answer = $progression[$hiddenIndex];
+        $correctAnswer = $progression[$hiddenIndex];
         $progression[$hiddenIndex] = '..';
         $expression = implode(' ', $progression);
         line("Question: %s", $expression);
         $answer = (int)prompt("Your answer");
 
-        return [$answer, $correct_answer];
+        return [$answer, $correctAnswer];
     };
 
     game('What number is missing in the progression?', $game);

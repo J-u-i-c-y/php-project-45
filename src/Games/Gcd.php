@@ -17,13 +17,13 @@ function gcdGame()
         $x = rand(1, 50);
         $y = rand(1, 50);
 
-        $correct_answer = gcd($x, $y);
+        $correctAnswer = gcd($x, $y);
         $expression = "{$x} {$y}";
 
         line("Question: %s", $expression);
         $answer = (int)prompt("Your answer");
 
-        return [$answer, $correct_answer];
+        return [$answer, $correctAnswer];
     };
 
     game('Find the greatest common divisor of given numbers.', $game);

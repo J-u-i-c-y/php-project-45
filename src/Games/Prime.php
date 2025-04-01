@@ -27,9 +27,9 @@ function primeGame()
         $number = rand(0, 15);
         line("Question: %s", $number);
         $answer = prompt("Your answer");
-        $correct_answer = prime($number) ? 'yes' : 'no';
+        $correctAnswer = prime($number) ? 'yes' : 'no';
 
-        return [$answer, $correct_answer];
+        return [$answer, $correctAnswer];
     };
 
     game('Answer "yes" if given number is prime. Otherwise answer "no".', $game);

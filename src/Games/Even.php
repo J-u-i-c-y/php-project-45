@@ -12,9 +12,9 @@ function evenNumber()
         $number = rand(0, 15);
         line("Question: %s", $number);
         $answer = prompt("Your answer");
-        $correct_answer = $number % 2 === 0 ? 'yes' : 'no';
+        $correctAnswer = $number % 2 === 0 ? 'yes' : 'no';
 
-        return [$answer, $correct_answer];
+        return [$answer, $correctAnswer];
     };
 
     game('Answer "yes" if the number is even, otherwise answer "no".', $game);

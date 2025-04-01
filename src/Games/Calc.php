@@ -12,15 +12,15 @@ function calc()
         $x = rand(1, 5);
         $y = rand(1, 5);
         $operations = ['-', '+', '*'];
-        $operations_id = rand(0, count($operations) - 1);
-        $operation = $operations[$operations_id];
+        $operationsId = rand(0, count($operations) - 1);
+        $operation = $operations[$operationsId];
         $expression = "{$x} {$operation} {$y}";
 
         line("Question: %s", $expression);
         $answer = (int)prompt("Your answer");
-        $correct_answer = eval("return $expression;");
+        $correctAnswer = eval("return $expression;");
 
-        return [$answer, $correct_answer];
+        return [$answer, $correctAnswer];
     };
 
     game('What is the result of the expression?', $game);

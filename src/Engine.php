@@ -7,21 +7,21 @@ use function cli\prompt;
 
 const MAX_COUNT_ROUNDS = 3;
 
-function game($game_description, $answers)
+function game($gameDescription, $answers)
 {
     line('Welcome to the Brain Games!');
     $name = prompt('May I have your name?');
     line("Hello, %s!", $name);
-    line($game_description);
+    line($gameDescription);
 
 
     for ($i = 0; $i < MAX_COUNT_ROUNDS; $i++) {
-        [$answer, $correct_answer] = $answers();
+        [$answer, $correctAnswer] = $answers();
 
-        if ($answer === $correct_answer) {
+        if ($answer === $correctAnswer) {
             line("Correct!");
         } else {
-            line("'%s' is wrong answer ;(. Correct answer was '%s'.\nLet's try again, %s!", $answer, $correct_answer, $name);
+            line("'%s' is wrong answer ;(. Correct answer was '%s'.\nLet's try again, %s!", $answer, $correctAnswer, $name);
             return;
         }
     }

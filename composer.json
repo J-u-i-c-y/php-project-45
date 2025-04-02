@@ -32,7 +32,7 @@
     "license": "MIT",
     "require": {
         "wp-cli/php-cli-tools": "^0.12.4",
-        "php": "^8.3.0"
+        "php": "^8.2.0"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "^3.12",

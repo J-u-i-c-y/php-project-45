@@ -6,7 +6,7 @@ use function cli\line;
 use function cli\prompt;
 use function BrainGames\Engine\game;
 
-function calc()
+function calc(): void
 {
     $game = function () {
         $x = rand(1, 5);

@@ -21,7 +21,7 @@ function prime(int $number): bool
     return true;
 }
 
-function primeGame()
+function primeGame(): void
 {
     $game = function () {
         $number = rand(0, 15);

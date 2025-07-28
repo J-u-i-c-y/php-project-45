@@ -6,7 +6,7 @@ use function cli\line;
 use function cli\prompt;
 use function BrainGames\Engine\game;
 
-function evenNumber()
+function evenNumber(): void
 {
     $game = function () {
         $number = rand(0, 15);

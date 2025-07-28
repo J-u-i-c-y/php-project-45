@@ -11,7 +11,7 @@ function gcd(int $a, int $b): int
     return $b === 0 ? $a : gcd($b, $a % $b);
 }
 
-function gcdGame()
+function gcdGame(): void
 {
     $game = function () {
         $x = rand(1, 50);

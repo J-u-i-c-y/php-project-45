@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1753710388">
-  <project timestamp="1753710388" name="Clover Coverage">
+<coverage generated="1753710679">
+  <project timestamp="1753710679" name="Clover Coverage">
     <file name="/Users/user/Documents/Projects/php-project-45/src/Games/Calc.php">
       <line num="12" type="stmt" count="0"/>
       <line num="13" type="stmt" count="0"/>

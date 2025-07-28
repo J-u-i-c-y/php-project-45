@@ -15,6 +15,11 @@
             "src/Games/Prime.php"
         ]
     },
+    "autoload-dev": {
+        "psr-4": {
+            "BrainGames\\Tests\\": "tests/"
+        }
+    },
     "authors": [
         {
             "name": "Andrei Goncharenko",

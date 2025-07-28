@@ -1,6 +1,6 @@
 <?php
 
-namespace Code\Tests;
+namespace BrainGames\Tests;
 
 use PHPUnit\Framework\TestCase;
 

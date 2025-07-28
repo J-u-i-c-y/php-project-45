@@ -18,7 +18,10 @@ jobs:
           coverage: xdebug
 
       - name: Install dependencies
-        run: composer update --no-ansi --no-interaction --no-progress
+        run: composer install --no-ansi --no-interaction --no-progress
+
+      - name: Run PHPStan analysis
+        run: vendor/bin/phpstan analyse -c phpstan.neon src tests
 
       - name: Run PHPUnit with coverage
         run: vendor/bin/phpunit --coverage-clover=coverage.xml

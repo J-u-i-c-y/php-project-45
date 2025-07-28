@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1753710388">
+  <project timestamp="1753710388" name="Clover Coverage">
+    <file name="/Users/user/Documents/Projects/php-project-45/src/Games/Calc.php">
+      <line num="12" type="stmt" count="0"/>
+      <line num="13" type="stmt" count="0"/>
+      <line num="14" type="stmt" count="0"/>
+      <line num="15" type="stmt" count="0"/>
+      <line num="16" type="stmt" count="0"/>
+      <line num="17" type="stmt" count="0"/>
+      <line num="19" type="stmt" count="0"/>
+      <line num="20" type="stmt" count="0"/>
+      <line num="23" type="stmt" count="0"/>
+      <line num="24" type="stmt" count="0"/>
+      <line num="25" type="stmt" count="0"/>
+      <line num="26" type="stmt" count="0"/>
+      <line num="27" type="stmt" count="0"/>
+      <line num="28" type="stmt" count="0"/>
+      <line num="29" type="stmt" count="0"/>
+      <line num="30" type="stmt" count="0"/>
+      <line num="31" type="stmt" count="0"/>
+      <line num="33" type="stmt" count="0"/>
+      <line num="36" type="stmt" count="0"/>
+      <line num="39" type="stmt" count="0"/>
+      <metrics loc="41" ncloc="41" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="20" coveredstatements="0" elements="20" coveredelements="0"/>
+    </file>
+    <file name="/Users/user/Documents/Projects/php-project-45/src/Games/Even.php">
+      <line num="12" type="stmt" count="0"/>
+      <line num="13" type="stmt" count="0"/>
+      <line num="14" type="stmt" count="0"/>
+      <line num="15" type="stmt" count="0"/>
+      <line num="17" type="stmt" count="0"/>
+      <line num="20" type="stmt" count="0"/>
+      <metrics loc="22" ncloc="22" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="0" elements="6" coveredelements="0"/>
+    </file>
+    <file name="/Users/user/Documents/Projects/php-project-45/src/Games/Gcd.php">
+      <line num="11" type="stmt" count="0"/>
+      <line num="17" type="stmt" count="0"/>
+      <line num="18" type="stmt" count="0"/>
+      <line num="20" type="stmt" count="0"/>
+      <line num="21" type="stmt" count="0"/>
+      <line num="23" type="stmt" count="0"/>
+      <line num="24" type="stmt" count="0"/>
+      <line num="26" type="stmt" count="0"/>
+      <line num="29" type="stmt" count="0"/>
+      <metrics loc="31" ncloc="31" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="0" elements="9" coveredelements="0"/>
+    </file>
+    <file name="/Users/user/Documents/Projects/php-project-45/src/Games/Prime.php">
+      <line num="11" type="stmt" count="0"/>
+      <line num="12" type="stmt" count="0"/>
+      <line num="15" type="stmt" count="0"/>
+      <line num="16" type="stmt" count="0"/>
+      <line num="17" type="stmt" count="0"/>
+      <line num="21" type="stmt" count="0"/>
+      <line num="27" type="stmt" count="0"/>
+      <line num="28" type="stmt" count="0"/>
+      <line num="29" type="stmt" count="0"/>
+      <line num="30" type="stmt" count="0"/>
+      <line num="32" type="stmt" count="0"/>
+      <line num="35" type="stmt" count="0"/>
+      <metrics loc="37" ncloc="37" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="0" elements="12" coveredelements="0"/>
+    </file>
+    <file name="/Users/user/Documents/Projects/php-project-45/src/Games/Progression.php">
+      <line num="11" type="stmt" count="0"/>
+      <line num="12" type="stmt" count="0"/>
+      <line num="13" type="stmt" count="0"/>
+      <line num="14" type="stmt" count="0"/>
+      <line num="16" type="stmt" count="0"/>
+      <line num="22" type="stmt" count="0"/>
+      <line num="23" type="stmt" count="0"/>
+      <line num="24" type="stmt" count="0"/>
+      <line num="26" type="stmt" count="0"/>
+      <line num="27" type="stmt" count="0"/>
+      <line num="28" type="stmt" count="0"/>
+      <line num="29" type="stmt" count="0"/>
+      <line num="30" type="stmt" count="0"/>
+      <line num="31" type="stmt" count="0"/>
+      <line num="32" type="stmt" count="0"/>
+      <line num="34" type="stmt" count="0"/>
+      <line num="37" type="stmt" count="0"/>
+      <metrics loc="39" ncloc="39" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="0" elements="17" coveredelements="0"/>
+    </file>
+    <metrics files="5" loc="170" ncloc="170" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="64" coveredstatements="0" elements="64" coveredelements="0"/>
+  </project>
+</coverage>

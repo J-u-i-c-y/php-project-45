@@ -1,12 +1,6 @@
-includes:
-  - vendor/hexlet/phpstan-fp/extension.neon
-
 parameters:
-  bootstrapFiles:
-    - vendor/autoload.php
-  level: 5
-  excludePaths:
-    - tests/*
-
-  phpstanFunctionalProgramming:
-    disallowClasses: true
+    bootstrapFiles:
+        - vendor/autoload.php
+    level: 5
+    excludePaths:
+        - tests/*

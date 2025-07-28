@@ -16,7 +16,7 @@ function generateProgression(int $start, int $step, int $length): array
     return $progression;
 }
 
-function progression()
+function progression(): void
 {
     $game = function () {
         $start = rand(1, 10);

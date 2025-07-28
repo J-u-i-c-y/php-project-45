@@ -29,5 +29,4 @@ test:
 	composer exec phpunit
 
 test-coverage:
-	mkdir -p build/logs
-	composer exec phpunit -- --coverage-clover=coverage.xml tests
+	phpunit --coverage-clover=coverage.xml

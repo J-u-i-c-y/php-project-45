@@ -5,7 +5,7 @@ parameters:
   bootstrapFiles:
     - vendor/autoload.php
   level: 5
-  excludes_analyse:
+  excludePaths:
     - tests/*
 
   phpstanFunctionalProgramming:

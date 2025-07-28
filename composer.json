@@ -32,10 +32,10 @@
     "license": "MIT",
     "require": {
         "wp-cli/php-cli-tools": "^0.12.4",
-        "php": "^8.1.0"
+        "php": "^8.2.0"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "^3.12",
-        "phpunit/phpunit": "^11.0"
+        "phpunit/phpunit": "^12.0"
     }
 }

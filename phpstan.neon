@@ -1,6 +1,12 @@
+includes:
+  - vendor/hexlet/phpstan-fp/extension.neon
+
 parameters:
-    bootstrapFiles:
-        - vendor/autoload.php
-    level: 5
-    excludePaths:
-        - tests/* # если хочешь исключить тесты из проверки, чтобы обойти правило disallowClasses
+  bootstrapFiles:
+    - vendor/autoload.php
+  level: 5
+  excludes_analyse:
+    - tests/*
+
+  phpstanFunctionalProgramming:
+    disallowClasses: true

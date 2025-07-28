@@ -2,5 +2,7 @@ parameters:
     bootstrapFiles:
         - vendor/autoload.php
     level: 5
+    scanDirectories:
+         - tests
     excludePaths:
         - tests/*

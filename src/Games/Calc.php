@@ -17,8 +17,21 @@ function calc()
         $expression = "{$x} {$operation} {$y}";
 
         line("Question: %s", $expression);
-        $answer = (int)prompt("Your answer");
-        $correctAnswer = eval("return $expression;");
+        $answer = (int) prompt("Your answer");
+
+        switch ($operation) {
+            case '+':
+                $correctAnswer = $x + $y;
+                break;
+            case '-':
+                $correctAnswer = $x - $y;
+                break;
+            case '*':
+                $correctAnswer = $x * $y;
+                break;
+            default:
+                throw new \Exception("Unknown operation: $operation");
+        }
 
         return [$answer, $correctAnswer];
     };

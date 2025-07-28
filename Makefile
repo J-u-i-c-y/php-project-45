@@ -27,8 +27,4 @@ lint:
 
 test-coverage:
 	mkdir -p build
-	composer exec phpunit -- --coverage-clover coverage.xml tests
-
-# test-coverage:
-# 	mkdir -p build/logs
-# 	composer exec phpunit -- --coverage-clover build/logs/clover.xml tests
+	composer exec phpunit -- --coverage-clover coverage.xml

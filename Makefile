@@ -25,6 +25,9 @@ validate:
 lint:
 	composer exec --verbose phpcs -- --standard=PSR12 src bin
 
+test:
+	composer exec phpunit
+
 test-coverage:
-	mkdir -p build
-	composer exec phpunit -- --coverage-clover coverage.xml
+	mkdir -p build/logs
+	composer exec phpunit -- --coverage-clover=coverage.xml tests

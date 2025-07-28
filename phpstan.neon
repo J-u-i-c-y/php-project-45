@@ -4,9 +4,3 @@ parameters:
     level: 5
     excludePaths:
         - tests/*
-
-includes:
-  - vendor/hexlet/phpstan-fp/extension.neon
-
-phpstanFunctionalProgramming:
-  disallowClasses: true

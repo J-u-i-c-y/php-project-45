@@ -2,18 +2,9 @@
 
 namespace BrainGames\Tests;
 
-use PHPUnit\Framework\TestCase;
+require_once __DIR__ . '/../src/Games/Even.php'; // или другой путь, если нужно
 
-class ExampleTest extends TestCase
-{
-    public function isEven(int $num): bool
-    {
-        return $num % 2 === 0;
-    }
+use function BrainGames\Games\Even\isEven;
 
-    public function testExample(): void
-    {
-        $this->assertTrue($this->isEven(2));
-        $this->assertFalse($this->isEven(3));
-    }
-}
+assert(isEven(2) === true);
+assert(isEven(3) === false);
